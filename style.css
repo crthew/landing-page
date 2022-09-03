@@ -1,24 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .titlelink {
-    display: inline-flex;
-    align-items: center;
+    
     padding: 10px;
+
 }
 
 .topbar {
-    display: inline-block;
-    margin-left: 20%;
+    display: flex;
+    background-color: rgb(61, 56, 47);
+    width: 100%;
+    padding-left: 25px;
+    gap: 10px;
+    font-size: 10px;
 }
 
 .headerlogo {
-    display: inline-block;
-    margin-left: 10px;
     color: white;
     font-size: 36px;
     font-family: sans-serif
+    
 }
 
-html, body {
-    background: linear-gradient(#1f2937 50%, transparent 0%) no-repeat;
-    height: 25%    
-
-}
