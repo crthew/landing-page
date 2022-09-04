@@ -40,7 +40,7 @@
         
 }
 
-.suckmydick {
+.imageboxtop {
     display: flex;
     font-size: 20px;
     color: aliceblue;
@@ -51,6 +51,7 @@
     margin-right: 60px;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .firstparagraph {
@@ -68,7 +69,9 @@
         
 }
 #signup {
-    width: 15%;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
     border: 10px;
     border-color: rgb(209, 25, 86);
     border-radius: 15%;
@@ -88,6 +91,97 @@
 }
 
 .titlelink:hover {
-    color: #1a2336
+    color: #3074ce
 }
 
+#secondmain {
+    display: flex;
+    padding-left: 25px;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 60px;
+    padding-top: 
+
+
+}
+
+.subtextbox1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    gap: 1px;
+}
+
+.subtexttext {
+    text-align: center;
+
+}
+
+.testbutton {
+    height: 100px;
+    width: 100px;
+
+}
+
+.secondcontenttitle {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px
+
+}
+
+#quotemain {
+    display: flex;
+    background-color: rgb(185, 185, 185);
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#quotetext {
+    width: 60%;
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+
+#quotename {
+
+    padding-top: 20px;
+    padding-left: 400px;
+
+
+}
+
+#signupbarcontainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+
+}
+
+#signupbar {
+    display: flex;
+    background-color: rgb(75, 75, 194);
+    width: 800px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 150px;
+
+}
+
+#copyrightbar {
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+
+
+}
